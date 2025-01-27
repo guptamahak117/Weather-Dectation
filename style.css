@@ -1,0 +1,71 @@
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/beautiful-shot-grassy-hills-covered-trees-near-mountains-dolomites-italy_181624-24400.jpg?t=st=1737907528~exp=1737911128~hmac=5f37e4cbd239d92f77d9738772ac9ac1c546b18509e88d25df22f47fcac3cd72&w=740') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .weather-app {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  .current-weather {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .details {
+    margin: 10px 0;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .day {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+  }
+
+  #day1{
+    height: 20px;
+    width: 20px;
+  }
